@@ -1,5 +1,7 @@
 # Fibonacci Calculator
 
+![Fibonacci Tests](https://github.com/krother/fibonacci/workflows/run_tests/badge.svg)
+
 Example repository for an Advanced Python course
 
 ![dungeon image](title.png)
