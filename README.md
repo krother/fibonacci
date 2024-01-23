@@ -1,5 +1,8 @@
 # Fibonacci Calculator
+
 Example repository for an Advanced Python course
+
+![dungeon image](title.png)
 
 ## Tests
 
