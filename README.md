@@ -12,6 +12,8 @@ To run the user interface type:
 
     python fibonacci/main.py
 
+The module ``main.py`` contains a few alternative implementations of the Fibonacci function.
+
 ## Tests
 
 To run the tests type:
