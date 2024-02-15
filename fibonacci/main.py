@@ -1,7 +1,7 @@
 from functools import lru_cache
 
 @lru_cache
-def calc_fibo(n: int) -> int:
+def calc_fibo_recursive(n: int) -> int:
     """Recursive implementation"""
     try:
         if n < 2:
@@ -11,7 +11,7 @@ def calc_fibo(n: int) -> int:
         print("n is too big!")
         return -1
 
-def calc_fibo(n: int) -> int:
+def calc_fibo_nonrecursive(n: int) -> int:
     """non-recursive implementation"""
     a, b = 1, 1
     while n > 0:
@@ -26,8 +26,9 @@ def fibo() -> int:
     while True:
         yield a
         a, b = b, a + b
-    
+
 def calc_fibo(n):
+    """Generator-based implementation"""
     f = fibo()
     a = next(f)
     for _ in range(n):
